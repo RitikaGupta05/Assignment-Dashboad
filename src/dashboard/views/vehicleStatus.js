@@ -2,15 +2,12 @@ import React from 'react';
 import data from "../data/statusData.json";
 
 const Vihiclestatus = (props) => {
-   console.log(props,"=location");
-
 
 	return (
 		<div className="status">
 			<table>
 				<tbody>
-					{/* {console.log(data.filter((item) => item.id === props.vehicleSt),"==")} */}
-					{data.map((item, ind) => (
+					{props.vehicleSt && data[props.vehicleSt.replace("#","")].map((item, ind) => (
 						<tr key={ind} >
 							<td data-column="" width="160">{item.name}</td>
 							<td data-column="" width="450">{item.duration}</td>

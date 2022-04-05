@@ -1,21 +1,12 @@
-import React, { useEffect, useState } from 'react';
-import { useHistory } from "react-router-dom";
+import React from 'react';
+import { useHistory, useLocation } from "react-router-dom";
 import DashboardContent from "./components/DashboardContent";
 import DashboardSidebar from "./components/DashboardSidebar";
 
 const DashboadLayout = (props) => {
-    console.log(props,"indexxxx");
    const history = useHistory();
-   const [status, setStatus] = useState("");
-
-   useEffect(() => {
-    //    console.log(props.location.state,"=props.location");
-    //    if(props.location.state.stId){
-    //     setStatus(props.location.state.stId);
-    //    }
+   let location  = useLocation();
    
-   },[])
-  
 
     return (
         <div className="desh-content">
@@ -24,7 +15,7 @@ const DashboadLayout = (props) => {
                     <DashboardSidebar  history={history} />
                 </div>
                 <div className="dash-data">
-                    <DashboardContent status={status} />
+                    <DashboardContent status={location.hash} />
                 </div>
 
             </div>

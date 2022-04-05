@@ -1,4 +1,4 @@
- [
+{ "1" : [
   
     {
         "id": 1,
@@ -25,4 +25,89 @@
         "maxSpeed": "Overcurrent"
     }
 
-] 
+],
+"2" : [
+  
+    {
+        "id": 1,
+        "name": "Elevation",
+        "duration": "300",
+        "maxSpeed": "Throttle"
+    },
+    {
+        "id": 2,
+        "name": "Temperature",
+        "duration": "11c",
+        "maxSpeed": "Controller"
+    },
+    {
+        "id": 3,
+        "name": "Locked",
+        "duration": "22c",
+        "maxSpeed": "Overload"
+    },
+    {
+        "id": 4,
+        "name": "Battery",
+        "duration": "76%",
+        "maxSpeed": "Overcurrent"
+    }
+
+],
+"3" : [
+  
+    {
+        "id": 1,
+        "name": "Elevation",
+        "duration": "27",
+        "maxSpeed": "Throttle"
+    },
+    {
+        "id": 2,
+        "name": "Temperature",
+        "duration": "20c",
+        "maxSpeed": "Controller"
+    },
+    {
+        "id": 3,
+        "name": "Locked",
+        "duration": "10",
+        "maxSpeed": "Overload"
+    },
+    {
+        "id": 4,
+        "name": "Battery",
+        "duration": "45%",
+        "maxSpeed": "Overcurrent"
+    }
+
+],
+"4" : [
+  
+    {
+        "id": 1,
+        "name": "Elevation",
+        "duration": "37",
+        "maxSpeed": "Throttle"
+    },
+    {
+        "id": 2,
+        "name": "Temperature",
+        "duration": "10c",
+        "maxSpeed": "Controller"
+    },
+    {
+        "id": 3,
+        "name": "Locked",
+        "duration": "140",
+        "maxSpeed": "Overload"
+    },
+    {
+        "id": 4,
+        "name": "Battery",
+        "duration": "55%",
+        "maxSpeed": "Overcurrent"
+    }
+
+]
+}

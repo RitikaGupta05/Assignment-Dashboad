@@ -1,18 +1,13 @@
 import React, { useState } from "react";
 
 const remove = (e) => {
-  console.log(e.currentTarget.parentNode.parentNode.parentNode, "=======", e.currentTarget);
   e.currentTarget.parentNode.parentNode.removeChild(e.currentTarget.parentNode);
-
 };
 
 
-
 const AddedElement = (props) => {
- 
   const handleClick = (id) => {
-    console.log(id,"===id");
-    props.history.push(`/dashboard?${id}`, { stId : id });
+    props.history.push(`/dashboard#${id}`);
   }
   
   return (
@@ -36,7 +31,7 @@ const AdminSideNav = (props) => {
   return (
     <nav className="accordion arrows">
       <h3> Vehical Viewer </h3>
-      <button onClick={() => setCount(count + 1)}> + Add vehical</button>
+      <button onClick={() => {count < 4 ? setCount(count + 1) : alert("Only four record in dataset.Can't add more")}}> + Add vehical</button>
       <ul>
         {[...Array(count)].map((data, i) => <AddedElement value={i + 1} remove={remove} history={props.history} />)}
       </ul>
