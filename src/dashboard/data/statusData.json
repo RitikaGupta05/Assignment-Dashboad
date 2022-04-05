@@ -1,0 +1,28 @@
+ [
+  
+    {
+        "id": 1,
+        "name": "Elevation",
+        "duration": "200",
+        "maxSpeed": "Throttle"
+    },
+    {
+        "id": 2,
+        "name": "Temperature",
+        "duration": "45c",
+        "maxSpeed": "Controller"
+    },
+    {
+        "id": 3,
+        "name": "Locked",
+        "duration": "25c",
+        "maxSpeed": "Overload"
+    },
+    {
+        "id": 4,
+        "name": "Battery",
+        "duration": "76%",
+        "maxSpeed": "Overcurrent"
+    }
+
+] 

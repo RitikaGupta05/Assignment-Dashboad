@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "startTime": "May 26, 5:18 pm",
+        "duration": "24 min",
+        "maxSpeed": "91 kmph",
+        "averageSpeed": "70.04V",
+        "endingVoltage": "09.04",
+        "distance": "54.4 km",
+        "driverScore": "98.8"
+    },
+    {
+        "id": 2,
+        "startTime": "May 26, 5:18 pm",
+        "duration": "24 min",
+        "maxSpeed": "91 kmph",
+        "averageSpeed": "70.04V",
+        "endingVoltage": "09.04",
+        "distance": "54.4 km",
+        "driverScore": "98.8"
+    },
+    {
+        "id": 3,
+        "startTime": "May 26, 5:18 pm",
+        "duration": "24 min",
+        "maxSpeed": "91 kmph",
+        "averageSpeed": "70.04V",
+        "endingVoltage": "09.04",
+        "distance": "54.4 km",
+        "driverScore": "98.8"
+    },
+    {
+        "id": 4,
+        "startTime": "May 26, 5:18 pm",
+        "duration": "24 min",
+        "maxSpeed": "91 kmph",
+        "averageSpeed": "70.04V",
+        "endingVoltage": "09.04",
+        "distance": "54.4 km",
+        "driverScore": "98.8"
+    },
+    {
+        "id": 5,
+        "startTime": "May 26, 5:18 pm",
+        "duration": "24 min",
+        "maxSpeed": "91 kmph",
+        "averageSpeed": "70.04V",
+        "endingVoltage": "09.04",
+        "distance": "54.4 km",
+        "driverScore": "98.8"
+    },
+    {
+        "id": 6,
+        "startTime": "May 26, 5:18 pm",
+        "duration": "24 min",
+        "maxSpeed": "91 kmph",
+        "averageSpeed": "70.04V",
+        "endingVoltage": "09.04",
+        "distance": "54.4 km",
+        "driverScore": "98.8"
+    },
+    {
+        "id": 7,
+        "startTime": "May 26, 5:18 pm",
+        "duration": "24 min",
+        "maxSpeed": "91 kmph",
+        "averageSpeed": "70.04V",
+        "endingVoltage": "09.04",
+        "distance": "54.4 km",
+        "driverScore": "98.8"
+    },
+    {
+        "id": 8,
+        "startTime": "May 26, 5:18 pm",
+        "duration": "24 min",
+        "maxSpeed": "91 kmph",
+        "averageSpeed": "70.04V",
+        "endingVoltage": "09.04",
+        "distance": "54.4 km",
+        "driverScore": "98.8"
+    }
+]
